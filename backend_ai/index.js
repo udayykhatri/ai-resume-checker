@@ -5,6 +5,8 @@ const PORT = 4000;
 
 const path = require('path')
 
+require('dotenv').config();
+
 require('./conn');
 app.use(express.json());
 app.use(cors({
