@@ -13,6 +13,9 @@ An AI-powered resume screening application that analyzes resumes against job des
 * Resume history tracking
 * Admin dashboard for viewing all submissions
 * MongoDB Atlas database integration
+  
+## Live project Link
+https://ai-resume-checker-z14h.onrender.com/
 
 ## Tech Stack
 
