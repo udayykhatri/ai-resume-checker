@@ -3,7 +3,7 @@ import { initializeApp } from "firebase/app";
 import {getAuth, GoogleAuthProvider} from "firebase/auth";
 
 const firebaseConfig = {
-  //apiKey: "add your own api key",
+  apiKey: "AIzaSyC2q5xd_celiBN790W5yytNrnMPU5Cv8S4",
   authDomain: "ai-resume-checker-65d52.firebaseapp.com",
   projectId: "ai-resume-checker-65d52",
   storageBucket: "ai-resume-checker-65d52.firebasestorage.app",
