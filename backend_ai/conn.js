@@ -1,12 +1,10 @@
 const mongoose = require("mongoose");
 
-mongoose.connect(
-    "add your own mongo uri", // 🔑 Paste your MongoDB connection string here
-)
-    .then(() => {
-        console.log("Database Connected Successfully");
-    })
-    .catch((err) => {
-        console.error("FULL ERROR:");
-        console.error(err);
-    });
+mongoose.connect(process.env.MONGO_URI)
+  .then(() => {
+    console.log("Database Connected Successfully");
+  })
+  .catch((err) => {
+    console.log("FULL ERROR:");
+    console.log(err);
+  });
