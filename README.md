@@ -1,6 +1,11 @@
+![React](https://img.shields.io/badge/React-Frontend-blue)
+![Node.js](https://img.shields.io/badge/Node.js-Backend-green)
+![MongoDB](https://img.shields.io/badge/MongoDB-Database-brightgreen)
+
 # AI Resume Checker
 
-An AI-powered resume screening application that analyzes resumes against job descriptions and provides a match score with detailed feedback.
+AI Resume Checker is a full-stack MERN application that helps job seekers evaluate their resumes against job descriptions using AI-powered analysis. The platform provides ATS-style feedback, match scores, skill-gap identification, and actionable improvement suggestions to increase interview chances.
+
 
 ## Features
 
@@ -16,6 +21,29 @@ An AI-powered resume screening application that analyzes resumes against job des
   
 ## Live project Link
 https://ai-resume-checker-z14h.onrender.com/
+
+## Screenshots
+
+### Home Page
+
+![Home Page](ai-resume-checker-images/dashboard.png)
+
+### Login Page
+
+![Login Page](ai-resume-checker-images/login-page.png)
+
+### Resume Upload
+
+![Resume Upload](ai-resume-checker-images/history.png)
+
+### History
+
+![Analysis Results](ai-resume-checker-images/feedback.png)
+
+### Admin Dashboard
+
+![Admin Dashboard](ai-resume-checker-images/admin.png)
+
 
 ## Tech Stack
 
@@ -65,9 +93,17 @@ npm run dev
 
 node index.js
 
+## Application Flow
+
+1. User logs in using Google Authentication.
+2. User uploads a PDF resume.
+3. Resume text is extracted using PDF-Parse.
+4. Cohere AI analyzes the resume against the job description.
+5. Match score and detailed feedback are generated.
+6. Results are stored in MongoDB and can be viewed later.
+
 ## Future Improvements
 
-* ATS Compatibility Score
 * Resume Keyword Suggestions
 * Resume Improvement Recommendations
 * Multiple Resume Comparisons
